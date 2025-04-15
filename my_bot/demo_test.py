@@ -21,6 +21,8 @@ _log = logging.get_logger()
 
 class MyBot(botpy.Client):
     a = 10
+    b = "hello"
+    c = 2
 
 
 if __name__ == '__main__':
